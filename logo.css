@@ -1,0 +1,212 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+  background:#FFFFFF;
+  color:#000000;
+  font-family: ''Trebuchet MS'', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  height: 100%;
+  position: relative;
+}
+
+.first{
+  width: 100%;
+  height: 220px;
+  display: block;
+  position: absolute;
+  background: linear-gradient(to bottom, #d6f6ff, #ffffff);
+  z-index: -1;
+}
+
+.end{
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  bottom: 0px;
+  background: #e8e3e3;
+  z-index: -1;
+  
+}
+
+.end::before{
+  content: '';
+  background: url(images/111.png) no-repeat;
+  background-position: center;
+  display: block;
+  height: 17px;
+  top: -8px;
+  position: relative;
+}
+
+.wraper{
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 994px;
+}
+li{
+    list-style: none;
+}
+
+.logo{
+    float: left;
+    margin-top: 55px;
+    margin-left: 130px;
+    font-size: 36px;
+    text-transform: lowercase;
+}
+.red{    color: red;}
+
+.menu_head{
+    float: right;
+    margin-top: 70px;
+    margin-right: 85px;
+}
+
+.menu li{
+  margin-left: 20px;
+  display: inline-block;
+  position: relative;
+
+}
+
+.menu a{
+  color:#000000;
+  display: block;
+  white-space: nowrap;
+}
+.menu a:hover{
+  background-color: gray;
+  color: red;
+  text-decoration: none;
+}
+
+.sub_menu{
+  position: absolute;
+  top: 18px;
+  display: none;
+  brder:1px solid #000;
+}
+.sub_menu li{
+  margin: 0;
+}
+
+.menu>li:hover .sub_menu{
+  display: block;
+  
+}
+.active a{
+  text-decoration: none;
+  color: red;
+}
+
+.adress{
+    text-align: right;
+    padding-top: 60px;
+    margin-right: 80px;
+}
+.big{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pic{
+    height: 156px;
+    width: 994px;
+    background: url(Images/Logo_Head.png) no-repeat ;
+}
+
+.main{
+}
+
+h3{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-top: 35px;
+}
+
+h3::after{
+  content: '';
+  display: block;
+  width: 210px;
+  height: 12px;
+  background: url(Images/4.png) no-repeat;
+  margin: 5px;
+}
+
+.left_menu{
+  display: block;
+  float: left;
+  width: 225px;
+  height: 100%;
+  text-align: center;
+  position: ;
+  margin: 0px 0 30px 80px;
+  line-height: 24px;
+}
+
+.left_menu a{
+  color: #000000;
+  font-weight: bold;
+}
+
+.content{
+  margin-left: 390px;
+  width: 535px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1{
+  text-align: right;
+  font-size: 29px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.content a{
+  color: red;
+}
+
+.content ul{
+  display: block;
+  float: left;
+  width: 40%;
+  margin: 30px 0 40px 0;
+}
+
+.note{
+  overflow: hidden;
+}
+.clearfix{
+  clear:both;
+}
+
+.footer{
+  margin-top: 100px;
+  height: 130px;
+
+}
+
+
+
+.footer .copyr{
+  float: left;
+  line-height: 24px;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 60px;
+}
+
+.footer .adress{
+  float: right;
+  margin: 0;
+  margin-right: 60px;
+  padding: 0;
+  margin-top: 20px;
+}
